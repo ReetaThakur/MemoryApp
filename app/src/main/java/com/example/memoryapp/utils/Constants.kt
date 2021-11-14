@@ -2,7 +2,8 @@ package com.example.memoryapp.utils
 
 import com.example.memoryapp.R
 
-
+const val EXTRA_GAME_NAME="EXTRA_GAME_NAME"
+const val EXTRA_BOARD_SIZE="EXTRA_BOARD_SIZE"
 val DEFAULT_ICON= listOf(
     R.drawable.ic_face,
     R.drawable.ic_flower,

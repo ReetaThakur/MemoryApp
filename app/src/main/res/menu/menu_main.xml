@@ -7,4 +7,16 @@
         android:icon="@drawable/ic_refresh"
         android:title="Refresh"
         app:showAsAction="always" />
+
+    <item android:id="@+id/new_size"
+        android:title="Choose new size"
+        app:showAsAction="never"/>
+
+    <item android:title="Create custom game"
+        android:id="@+id/mi_custom"
+        app:showAsAction="never"/>
+
+    <item android:title="Download custom game"
+        android:id="@+id/mi_download"
+        app:showAsAction="never"/>
 </menu>
